@@ -27,7 +27,7 @@
  }
  
   /* ---------------------------------------
-   this method renders the data on html page
+   this method adds the data (product-card) on html page
    ---------------------------------------- */
  
  function renderRaincoat(jacketData) {
@@ -44,7 +44,9 @@
  
  
  /* -------------------------------------------------
-     this method is render the list of jackets,
+     this function generate list of jackets 
+    ***********************************
+    this method is render the list of jackets,
      with the help of forEach loop.
     ------------------------------------------------- */
  export async function renderRaincoats(listOfjackets) {
@@ -58,7 +60,10 @@
        
   }
  
- 
+ /* -------------------------------------------- 
+    THis function we can say main() ,  this function will be 
+     run in index.js
+    --------------------------------------------  */
   export async function jacketscollectionHomePage(){
    
    /* --------------------------------------------

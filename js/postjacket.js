@@ -27,7 +27,7 @@
  }
 
   /* ---------------------------------------
-  this method renders the data on html page
+  this method adds the data(product-cards) on html page
   ---------------------------------------- */
 
   function renderRaincoat(jacketData) {
@@ -57,6 +57,11 @@
    }
 
 
+/* -------------------------------------------- 
+    THis function we can say main() ,  this function will be 
+     run in index.js
+    --------------------------------------------  */
+    
  export async function jacketPage(){
     //make new url objects from web address-bar
 

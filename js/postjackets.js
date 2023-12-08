@@ -27,7 +27,7 @@ import {apiUrl} from "./apiconnection.js";
 }
 
  /* ---------------------------------------
-  this method renders the data on html page
+  this method adds the product-card to html page
   ---------------------------------------- */
 
 function renderRaincoat(jacketData) {
@@ -48,6 +48,8 @@ function renderRaincoat(jacketData) {
 /* -------------------------------------------------
     this method is render the list of jackets,
     with the help of forEach loop.
+    ***********************************
+    this function generate list of jackets
    ------------------------------------------------- */
 export async function renderRaincoats(listOfjackets) {
   try {
@@ -59,7 +61,10 @@ export async function renderRaincoats(listOfjackets) {
  
  }
 
-
+ /* -------------------------------------------- 
+    THis function we can say main() ,  this function will be 
+     run in index.js
+    --------------------------------------------  */
  export async function jacketscollectionPage(){
   
   /* --------------------------------------------
