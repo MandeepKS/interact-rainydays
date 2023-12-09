@@ -63,7 +63,7 @@
     try {
       const url = new URL(location.href);
       const id = url.searchParams.get("id");
-      alert(id);
+      alert("hi from checkoutPage mfunction");
       const single_jacket = await getRaincoat(id);
       renderRaincoat(single_jacket);
     } catch (error) {
