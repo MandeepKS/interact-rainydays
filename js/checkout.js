@@ -14,7 +14,6 @@
         
         const response = await fetch(apiUrl + id);
         const rainyjacket = await response.json();
-        console.log(rainyjacket);
         if(!response.ok){
           alert("Error: Bad connection, Jacket id is not fetching the data.");  
         }
@@ -64,6 +63,7 @@
     try {
       const url = new URL(location.href);
       const id = url.searchParams.get("id");
+      console.log(id);
       const single_jacket = await getRaincoat(id);
       renderRaincoat(single_jacket);
     } catch (error) {
