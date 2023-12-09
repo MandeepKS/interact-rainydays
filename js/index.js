@@ -28,7 +28,6 @@ if(location.pathname === "/productdetail")
 
 if(location.pathname === "/checkout")
 {
-
   alert("hi from index.js");
   checkoutPage();
 }
