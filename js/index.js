@@ -21,7 +21,7 @@ if(location.pathname === "/collection")
 
 if(location.pathname === "/productdetail")
 {
-  alert("hi from index.js from productdetail");
+ 
   jacketPage();
 }
 
