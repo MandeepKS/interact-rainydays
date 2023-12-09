@@ -63,8 +63,13 @@
     try {
       const url = new URL(location.href);
       const id = url.searchParams.get("id");
-      if(id === null){
-        alert("Cart empty");
+      if(id === null || id === 0){
+        const jacketCartEmpty = document.querySelector(".order-preview-product-detail");
+        jacketCartEmpty.innerHTML += `<h2 class="checkout-produt-title">Cart is empty</h2>`;
+        
+        const html_loader = document.getElementById("loading");
+        html_loader.remove();
+        return;
       }
       const single_jacket = await getRaincoat(id);
       renderRaincoat(single_jacket);

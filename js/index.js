@@ -3,23 +3,22 @@ import { jacketPage } from "./postjacket.js";
 import { jacketscollectionPage } from "./postjackets.js";
 import { checkoutPage } from "./checkout.js";
 
-/* for local, /index.html, /collection.html, /productdetail.html are working
-   but for live environment i have to remove .html */
+
 
 /* "/" is index or home page on live server */
-if(location.pathname === "/")
+if(location.pathname === "/" || location.pathname === "/index.html")
 {
   jacketscollectionHomePage();
 }
 
-if(location.pathname === "/collection")
+if(location.pathname === "/collection" || location.pathname === "/collection.html")
 {
   jacketscollectionPage();
 
 }
 
 
-if(location.pathname === "/productdetail")
+if(location.pathname === "/productdetail" || location.pathname === "/productdetail.html")
 {
  
   jacketPage();
