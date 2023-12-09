@@ -11,7 +11,7 @@
     -------------------------------*/
     export async function getRaincoat(id) {
       
-    
+        console.log(id);
         const response = await fetch(apiUrl + id);
         const rainyjacket = await response.json();
         
