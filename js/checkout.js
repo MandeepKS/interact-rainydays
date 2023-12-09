@@ -11,10 +11,10 @@
     -------------------------------*/
     export async function getRaincoat(id) {
       
-        console.log(getRaincoat(id));
+        
         const response = await fetch(apiUrl + id);
         const rainyjacket = await response.json();
-        
+        console.log(response.json);
         if(!response.ok){
           alert("Error: Bad connection, Jacket id is not fetching the data.");  
         }
