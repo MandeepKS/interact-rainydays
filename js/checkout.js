@@ -63,9 +63,9 @@
     try {
       const url = new URL(location.href);
       const id = url.searchParams.get("id");
-      alert("hi from checkoutPage mfunction");
       const single_jacket = await getRaincoat(id);
       renderRaincoat(single_jacket);
+      console.log(single_jacket);
     } catch (error) {
       
       alert("Error : "  + error);
