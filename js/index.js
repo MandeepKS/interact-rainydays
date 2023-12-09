@@ -26,7 +26,7 @@ if(location.pathname === "/productdetail")
 }
 
 
-if(location.pathname === "/checkout.html")
+if(location.pathname === "/checkout")
 {
   checkoutPage();
 }
