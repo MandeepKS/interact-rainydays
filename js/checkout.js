@@ -48,7 +48,7 @@
     <hr>
     <p class="checkout-prodt-shipping">Shipping : <span class="shipping-free">Free</span></p>
     <h4 class="checkout-prodt-total-price">Total <span class="price-in-krone">NOK ${jacketData.price}</span></h4>
-    <a href="collection" class="btn-outeryellow checkout-button">CONTINUE SHOPPING</a> -->`
+    <a href="collection" class="btn-outeryellow checkout-button">CONTINUE SHOPPING</a>`;
    }
 
 

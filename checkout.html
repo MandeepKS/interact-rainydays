@@ -85,35 +85,36 @@
                     <p class="checkout-section1-subtitle">We deliver products only in Norway.</p>
                     
                     <!-- input form -->
+                    <form action="paymentsucessfull.html">
                     <!-- email -->
                     <div>
                         <label for="email">email</label>
-                        <input type="email" id="email" name="email" placeholder="NAME@RAINYDAYS.NO">
+                        <input type="email" id="email" name="email" placeholder="NAME@RAINYDAYS.NO" required>
                     </div>
 
                     <!-- input full-name -->
                     <div>
                         <label for="full-name">full-name</label>
-                        <input type="text" id="full-name" name="fullname" placeholder="FULL NAME">
+                        <input type="text" id="full-name" name="fullname" placeholder="FULL NAME" required>
                     </div>
 
                     <!-- phone  -->
                     <div>
                         <label for="tel">tel</label>
-                        <input type="tel" id="tel" name="phone" placeholder="+47 4111112">
+                        <input type="tel" id="tel" name="phone" placeholder="+47 4111112" required>
                     </div>
 
                     
                     <!-- Adress -->
                     <div>       
                         <label for="address">address</label>
-                        <input type="text" name="address" id="address" placeholder="ADDRESS">
+                        <input type="text" name="address" id="address" placeholder="ADDRESS" required>
                     </div>
 
                     <!-- Town -->
                     <div>
                         <label for="town">town</label>
-                        <input type="text" name="town" id="town" placeholder="TOWN">
+                        <input type="text" name="town" id="town" placeholder="TOWN" required>
                     </div>
                 </section>
                     <!-- end of input form -->
@@ -161,15 +162,16 @@
                 <div class="credit-debit-card">
                 
                 <!-- vipps -->
-                <input type="radio" name="card_payment" id="vipps" value="Vipps">
+                <input type="radio" name="card_payment" id="vipps" value="Vipps" required>
                 <img src="images/checkout/vipps-logo.png" alt="vipps">
                 </div>
                 <!-- end of payment method -->
                 
                 <!-- payment button -->
-                <div><a href="paymentsucessfull.html" class="btn-yellow credit-card-pay">Pay Order</a></div>
+               <input type="submit" class="btn-yellow credit-card-pay" value="Pay Order"></input>
                 
-            
+            </form>
+            <!-- end of checkout form -->
                 
                 
             

@@ -771,8 +771,12 @@ footer{
     padding: 2% 10%;
     font-size: 18px;
     font-weight: 700;
+    margin-right: 70%;
+    margin-top: -2%;
+    border-width: 0;
 
 }
+
 
 .checkout-prodt-size,.checkout-prodt-color,.checkout-prodt-quantity,.checkout-section1-subtitle{
     font-weight: 300;
@@ -1155,6 +1159,10 @@ footer{
 
   }
 
+  .jumbo-buttons{
+    display: none;
+  }
+
    .btn-yellow.jumbo{
 
       padding: 7px 25px;
@@ -1323,6 +1331,11 @@ footer{
         align-items: center;
         justify-content: center;
         margin-left: -3%;
+    }
+
+    .credit-card-pay{
+        margin-left: 15%;
+        margin-right: 15%;
     }
    
     /* End of Checkout page  */
